@@ -1,0 +1,16 @@
+[package]
+name = "fuel_sender"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+fuels = { version = "0.66.10", features = ["fuel-core-lib"] }
+futures-util = "0.3"
+log = "0.4.22"
+env_logger = "0.10"
+spark-market-sdk = "0.6.6" 
+thiserror = "1.0.63"
+tokio = { version = "1.12", features = ["rt-multi-thread", "macros", "time"] }
+tokio-tungstenite = "0.17.1"
+
