@@ -46,7 +46,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mnemonic = std::env::var("MNEMONIC").expect("MNEMONIC not found in .env");
 
     
-    let contract_id = "contract_id";
+    let _contract_id = "contract_id";
 
     info!("Starting benchmarks...");
 
